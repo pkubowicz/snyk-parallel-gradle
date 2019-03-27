@@ -1,0 +1,4 @@
+task clean(type: Delete) {
+    delete buildDir
+    delete 'node_modules'
+}
